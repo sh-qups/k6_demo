@@ -1,11 +1,11 @@
 import http from 'k6/http';
 import { sleep } from 'k6';
 
-// // 1. init code
-// export let options = {
-//   vus: 10,
-//   duration: '30s',
-// };
+// 1. init code
+export let options = {
+  vus: 10,
+  duration: '30s',
+};
 
 //  ramping up/down VUs
 export let options = {
